@@ -1,0 +1,42 @@
+:root {
+  --clr-dark: 220 33% 5%;
+  --clr-light: 231 77% 90%;
+  --clr-white: 0 0% 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: hsl(var(--clr-white));
+  background-color: hsl(var(--clr-dark));
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
